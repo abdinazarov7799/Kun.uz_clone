@@ -80,9 +80,10 @@ a{
     right: 0;
     box-sizing: border-box;
     padding-top: 5px;
+    transform: rotate(180deg);
 }
 .lang-btn:focus .lang-btn i{
-    transform: rotate(180deg);
+
 }
 .nav-search i{
     width: 30px;
