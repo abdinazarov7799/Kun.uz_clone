@@ -109,7 +109,7 @@ a{
     width: 110px;
 }
 .lang-btn:focus .lang-list{
-    display: block;
+    display: flex;
 }
 .lang-item{
     font-size: 12px;
@@ -318,4 +318,45 @@ a{
 .last-content-card-text:hover{
     color: #3535c4;
 }
+.muharrir-title{
+    display: flex;
+    justify-content: space-between;
 
+}
+.muharrir-title a{
+    color: #17206A;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.muharrir-title a:hover{
+    text-decoration: none;
+    color: #3535c4;
+}
+.m-content{
+    width: 346px;
+    height: 329px;
+}
+.m-content:nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.m-content img{
+    width: 326px;
+    height: 204px;
+}
+.m-content .time{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.m-content-title{
+    width: 98%;
+    color: #000;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    transition: .2s ease;
+}
+.m-content-title:hover{
+    color: #3535c4;
+}
